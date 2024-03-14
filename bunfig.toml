@@ -1,0 +1,3 @@
+preload = ["./plugins.js"]
+[test]
+preload = ["./plugins.js"]

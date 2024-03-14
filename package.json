@@ -1,0 +1,17 @@
+{
+  "name": "lib-example",
+  "module": "index.ts",
+  "type": "module",
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@tevm/contract": "^1.0.0-next.40",
+    "@tevm/memory-client": "^1.0.0-next.42"
+  },
+  "devDependencies": {
+    "@tevm/bun-plugin": "^1.0.0-next.41",
+    "@tevm/ts-plugin": "^1.0.0-next.11",
+    "@types/bun": "latest"
+  }
+}
