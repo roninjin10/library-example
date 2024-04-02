@@ -7,11 +7,15 @@
   },
   "dependencies": {
     "@tevm/contract": "^1.0.0-next.40",
-    "@tevm/memory-client": "^1.0.0-next.42"
+    "@tevm/memory-client": "1.0.0-next.42",
+    "@tevm/server": "1.0.0-next.44",
+    "@types/express": "^4.17.21",
+    "express": "^4.19.2",
+    "viem": "^2.9.7"
   },
   "devDependencies": {
-    "@tevm/bun-plugin": "^1.0.0-next.41",
-    "@tevm/ts-plugin": "^1.0.0-next.11",
-    "@types/bun": "latest"
+    "@tevm/bun-plugin": "1.0.0-next.41",
+    "@tevm/ts-plugin": "1.0.0-next.41",
+    "@types/bun": "^1.0.12"
   }
 }
